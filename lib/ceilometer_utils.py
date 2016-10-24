@@ -99,7 +99,7 @@ REQUIRED_INTERFACES = {
     'identity': ['identity-service'],
 }
 
-CEILOMETER_ROLE = "ResellerAdmin"
+CEILOMETER_ROLE = "ResellerAdmin,service"
 SVC = 'ceilometer'
 
 CONFIG_FILES = OrderedDict([
